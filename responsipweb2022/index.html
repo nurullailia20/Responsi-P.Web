@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="responsi.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+	<title>Pendaftaran Komunitas</title>
+	<meta http-equiv="Content-Type" content="text/html"; charset=iso-8859-1">
+</head>
+<body>
+	<div><h1>FORMULIR PENDAFTARAN</h1></div>
+	<form name="form1" method="post" action="responsi.php">
+		<table align="center">
+			<tr>
+				<td>Nama Lengkap</td> 
+				<td>: <input name="nama" type="text" id="nama"></td> 
+			</tr> 
+
+			<tr>
+				<td>Alamat</td> 
+				<td>: <input name="alamat" type="text" id="alamat"></td> 
+			</tr> 
+
+			<tr>
+				<td>E-Mail</td> 
+				<td>: <input name="email" type="text" id="email"></td> 
+			</tr>
+
+			<tr>
+				<td>Status</td> 
+				<td>: <select name="status" id="status">
+					<option>Menikah</option> 
+					<option>Single</option> 
+				</select></td>
+			</tr>  
+
+			<tr>
+				<td>Alasan bergabung</td> 
+				<td>: <textarea name="alasan" id="alasan"></textarea></td>
+			</tr>
+			<tr> 
+				<td>&nbsp;</td> 
+			</tr>
+
+			<tr>
+				<td>&nbsp;&nbsp;</td> 
+				<td>&nbsp;<input type="submit" name="submit" value="Kirim">  <input type="reset" name="submit2" value="Batal"></td> 
+			</tr> 
+		</table>
+	</form> 
+	<div class="container"><strong><a href="lihat.php">::Lihat Daftar Calon Anggota::</a></strong></div> 
+</body>
+</html>
